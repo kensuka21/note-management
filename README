@@ -1,0 +1,40 @@
+# Note Management
+
+
+Frontend: React
+
+## Design
+
+### Backend
+Stack: Django Rest, SQLite
+
+Models: Notes, Users, AudioRecording
+Endpoints:
+- Create, Get, Get All, Delete, Update Notes
+- Upload audio recording attached to a note
+- Download audio file
+- Create user
+- Login user
+- Refresh user token
+
+
+### Frontend
+Stack: React
+
+Pages:
+- Login
+- Register user
+- List notes
+- Create note
+- Edit note
+
+
+
+## How to run
+- pip install requirements.txt
+- cd NoteManagement
+- Run `python manage.py migrate`
+- Run `python manage.py runserver 8000`
+- in another terminal go to notes-ui
+- Run `npm i`
+- Run `npm start`
